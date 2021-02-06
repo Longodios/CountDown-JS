@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+    font-size: 62, 5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(/img/montaña.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.contenedor-countdown {
+    display: flex;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: greenyellow;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+    color: greenyellow;
+}
+
+.countdown-el span {
+    font-size: 1.5rem;
+    color: greenyellow;
+}
+
+.contador__cifras {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    color: greenyellow;
+    margin-right: 2rem;
+}
+
+.contador__nombres {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    color: greenyellow;
+    margin-left: .5rem;
+}
